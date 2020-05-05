@@ -8,5 +8,5 @@ if position_taken?(board, index)
    board[index] != " " || board[index] != "" || board[index] != niL else [index]!= "X" || board[index] != "O"
    false
  end
- 
+ end
 
