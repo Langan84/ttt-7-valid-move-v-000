@@ -9,7 +9,7 @@ def position_taken?(board, index)
      nil or false
      
      else [index]!= "X" || board[index] != "O"
-   false
+  nil or false
  end
  end
 
