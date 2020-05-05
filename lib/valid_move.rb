@@ -6,7 +6,7 @@ index.between?(0,8) && !position_taken?(board, index)
 
 if position_taken?(board, index)
    board[index] != " " || board[index] != "" || board[index] != niL false 
- RUBY_RELEASE_DATE  [index]!= "X" || board[index] != "O"
+   else [index]!= "X" || board[index] != "O"
    false
  end
  end
