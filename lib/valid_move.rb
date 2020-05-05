@@ -5,7 +5,7 @@ if index.between?(0,8) && !position_taken?(board, index)
 else 
   return false
 end
-
+end
 def position_taken?(board, index)
    if board[index] != " " || board[index] != "" || board[index] != niL 
      return false
