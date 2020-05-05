@@ -5,8 +5,7 @@ index.between?(0,8) && !position_taken?(board, index)
 end
 
 def position_taken?(board, index)
-   board[index] != " " || board[index] != "" || board[index] != niL 
-   else [index]!= "X" || board[index] != "O"
+   board[index] != " " || board[index] != "" || board[index] != niL && [index]!= "X" || board[index] != "O"
    false
  end
  
